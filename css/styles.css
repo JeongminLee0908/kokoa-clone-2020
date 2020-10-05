@@ -4,10 +4,12 @@
 
 /* Components */
 @import url("components/status-bar.css");
+@import url("components/nav.css");
 
 /* Screens */
 @import url("screens/login.css");
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 1000vh;
 }
