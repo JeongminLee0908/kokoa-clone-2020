@@ -4,24 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Kokoa Talk</title>
+  <title>Welcome to Kokoa Clone</title>
 </head>
 
 <body>
-  <header id="status-bar">
+  <div class="status-bar">
     <section class="status-bar__column">
       <span>No Service</span>
-      <!-- To Do Wi-Fi Icon -->
+      <i class="fas fa-wifi"></i>
     </section>
     <section class="status-bar__column">
       <span>18:43</span>
     </section>
     <section class="status-bar__column">
       <span>110%</span>
-      <!-- Battert Icon -->
-      <!-- Lighting Icon -->
+      <i class="fas fa-battery-half"></i>
+      <i class="fas fa-bolt"></i>
     </section>
+  </div>
+
+  <header class="welcome-header">
+    <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+    <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
   </header>
+
+  <form id="login-form">
+    <input type="text" placehorder="Email or phone number">
+    <input type="text" placeholder="Password">
+    <button type="submit">Log In</button>
+    <button type="submit">Sign Up</button>
+    <a href="#">Find Kokoa Account or Password</a>
+  </form>
+
+
+
+  <script src="https://kit.fontawesome.com/f1095f6b12.js"></script>
 </body>
 
 </html>
